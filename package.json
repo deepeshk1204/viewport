@@ -1,0 +1,35 @@
+{
+  "name": "viewport",
+  "version": "1.0.0",
+  "description": "get text of elements present in viewport",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deepeshk1204/viewport.git"
+  },
+  "keywords": [
+    "viewport",
+    "intersectionObserver"
+  ],
+  "author": "Deepesh kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deepeshk1204/viewport/issues"
+  },
+  "homepage": "https://github.com/deepeshk1204/viewport#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "compression": "^1.7.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.4",
+    "http": "0.0.0",
+    "intersection-observer": "^0.5.0",
+    "lodash": "^4.17.11",
+    "nodemon": "^1.18.4",
+    "path": "^0.12.7"
+  }
+}
